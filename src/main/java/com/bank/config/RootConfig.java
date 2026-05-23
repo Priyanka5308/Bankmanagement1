@@ -25,9 +25,9 @@ public class RootConfig {
     public DataSource dataSource() {
         DriverManagerDataSource ds = new DriverManagerDataSource();
         ds.setDriverClassName("com.mysql.cj.jdbc.Driver");
-        ds.setUrl("jdbc:mysql://localhost:3306/your_db_name"); //change
+        ds.setUrl("jdbc:mysql://localhost:3306/smartbank"); //change
         ds.setUsername("root");
-        ds.setPassword("your_db_password"); //change
+        ds.setPassword("root"); //change
         return ds;
     }
 
